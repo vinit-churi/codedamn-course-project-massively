@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- start writing your code -->
-    <header>
+    <header class="hide">
       <section id="home">
         <h1 class="home-main-title">THIS IS MASSIVELY</h1>
         <p class="home-main-text">
@@ -47,7 +47,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="hide">
       <section class="latest-story">
         <div class="time-divider">
           <span class="time-divider-before"></span>
@@ -141,6 +141,60 @@
           <div class="btn article-button">FULL STORY</div>
         </div>
       </section>
+      <section class="pagination">
+        <p class="page-item active">1</p>
+        <p class="page-item">2</p>
+        <p class="page-item">...</p>
+        <p class="page-item">7</p>
+        <p class="page-item">8</p>
+        <p class="page-item">9</p>
+        <p class="page-item">NEXT</p>
+      </section>
     </main>
+    <footer>
+      <form id="form" action="/action">
+        <div class="form-group">
+          <label for="name">NAME</label>
+          <input type="text" name="name" type="text" id="name" />
+        </div>
+        <div class="form-group">
+          <label for="email">EMAIL</label>
+          <input type="text" name="email" type="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="message">MESSAGE</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <div class="contact-button">
+          <button type="submit" class="btn">SEND MESSAGE</button>
+        </div>
+      </form>
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <b class="contact-info-title">ADDRESS</b>
+          <p class="contact-info-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quam
+            minima possimus est.
+          </p>
+        </div>
+        <div class="contact-info-item">
+          <b class="contact-info-title">PHONE</b>
+          <p class="contact-info-text">(000) 000-000</p>
+        </div>
+        <div class="contact-info-item">
+          <b class="contact-info-title">EMAIL</b>
+          <p class="contact-info-text">info@untitled.tld</p>
+        </div>
+        <div class="contact-info-item">
+          <b class="contact-info-title">SOCIAL</b>
+          <div class="social-icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
