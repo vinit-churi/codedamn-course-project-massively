@@ -395,9 +395,6 @@ footer .contact-info {
   color: #979191;
 }
 
-.hide {
-  display: none;
-}
 @media (max-width: 1024px) {
   nav {
     display: none !important;
